@@ -1,0 +1,71 @@
+#HomeBannerImg{
+    background-repeat: no-repeat;
+   margin: 30px 100px;
+    }
+
+ 
+
+    .Menu{
+        position: relative;
+        left: 1000px;
+        top: 10px;
+        height: 50px;
+        width: 400px;
+        border-radius: 10px;
+    }
+    
+    
+    .mytable{
+        margin: 50px 160px;
+        float: left;
+    }
+    
+    .OrderdItems{
+        margin: 100px 100px;
+        border: 2px 2px 2px gray solid;
+        box-shadow: 2px 2px 2px;
+        float: left;
+    }
+    
+    .items{
+        font-size: 20px;
+        color: rgb(255, 0, 0);
+        font-family:cursive;
+        
+    }
+    
+    .Home{
+        position: relative;
+        display: block;
+        left: 20px;
+        top:0px;
+        right: 20px;
+        color: white;
+        text-decoration: none;
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .Contact{
+        position: relative;
+        display: block;
+        left: 20px;
+        right: 10px;
+        color: white;
+        text-decoration: none;
+        float: left;
+        margin: 0px 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    
+    .btn{
+        border-radius: 70px;
+        background-color: white;
+        color: blue;
+        width: 92px;
+        height: 50px;
+    }
+ 

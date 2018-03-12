@@ -1,0 +1,78 @@
+
+<div style=" margin: 50px 160px;
+float: left;" >
+<table  border="1" style="float:left;text-align:center;color:orangered;">
+<tr style="background-color:orangered;color:aliceblue;">
+    <th>Name</th>
+    <th >Ingredients</th>
+    <th>Price</th>
+    </tr>
+    <tr *ngFor="let item of data">
+     <td width="150px" height="153px">
+         {{item.Name}}
+     </td>
+     <td>
+        {{item.Ingredients}}
+     </td>
+     <td>
+        {{item.Price}}
+     </td>    
+    </tr>
+</table>
+<table style="float:left;" border="1">
+    <tr style="background-color:orangered;color:aliceblue;">
+        <th>Pizza</th>
+        <th>Order Now</th>
+    </tr>
+    <tr>
+        <td>
+            <img [src]="vegetarienImg" width="150px" height="150px">
+        </td>
+        <td>
+            <button (click)="orderveg()" width="150px" height="150px" class="btn btn-danger">Order</button>
+        </td>  
+    </tr>
+    <tr>
+        <td> 
+            <img [src]="ReginaImg" width="150px" height="150px">
+        </td>
+        <td>
+            <button (click)="orderRegina()"  class="btn btn-danger">Order</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img [src]="mexiImg" width="150px" height="150px">
+        </td>
+        <td>
+            <button (click)="orderMexi()" width="150px" height="150px" class="btn btn-danger">Order</button>
+        </td>  
+    </tr>
+    <tr>
+        <td>
+            <img [src]="PyasanneImg" width="150px" height="150px">
+        </td>
+        <td>
+            <button (click)="orderpyas()" width="150px" height="150px" class="btn btn-danger">Order</button>
+        </td>  
+    </tr>    
+</table>
+</div>
+
+<!-- //Add to Orederd List// -->
+<div style=" margin: 100px 100px;
+border: 2px 2px 2px gray solid;
+box-shadow: 2px 2px 2px;
+float: left;" >
+    <h3><u> Your Recente Pizza Orders:</u></h3>
+    <p><span class="items" *ngFor="let item of cart"><br>{{item}}
+        <br>
+    <button (click)="ConfirmOrder()" class="btn btn-success">Confirm</button>
+    </span></p>
+</div>
+
+
+
+    
+
+
