@@ -1,0 +1,24 @@
+ [{
+    "Name":"Vegetarien",
+    "Ingredients":"Tomato,onion,jambon, olives,  Creme fraiche,fromagejambone",
+    "Price":100
+     
+    },
+{
+    "Name":"Regina Pizza",
+    "Ingredients":"Tomato,fromage,jambon, olives",
+    "Price":150
+   
+},
+{
+    "Name":"Mexicain Pizza",
+    "Ingredients":"Tomato,fromage,pepperoni, merguez,olives,poivrons,origan",
+    "Price":250
+    
+},
+{
+    "Name":"Pyasanne Pizza",
+    "Ingredients":"Creme fraiche,fromagejambone, pommes de terre",
+    "Price":320
+
+}]
